@@ -1,0 +1,136 @@
+a{
+	text-decoration: none;
+}
+.overlay-order{
+	background-color: #fff;
+}
+.container-order{
+	max-width: 1124px;
+	width: 100%;
+	margin: 0px auto;
+	padding-bottom: 150px;
+	.order-title{
+		margin-top: 53px;
+		display: flex;
+		flex-direction: row;
+		span{
+color: #000000;
+font-size: 36px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 3.6px;
+		}
+	}
+	.order-corps{
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+		margin-top: 20px;
+		position: relative;
+		li{
+			margin-right: 63px;
+			position: relative;
+		}
+		li::after{
+			content: '';
+			background-image: url(../img/vectore-corps.png);
+			width: 4px;
+			height: 7px;
+			position: absolute;
+			left: -31px;
+			top: 3px;
+		}
+		li:first-of-type::after{
+			display: none;
+		}
+		a{
+			text-decoration: none;
+			opacity: 0.4;
+color: #000000;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1.4px;
+		}
+	}
+	.active{
+		opacity: 1 !important;
+	}
+}
+.order-item__main{
+	max-width: 998px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+.order-item__child{
+		height: 55px;
+		display: flex;
+border-bottom: 2px solid #d2d2d2;
+		width: 100%;
+	flex-direction: row;
+	align-items: center;
+	}
+.order-item__icon{
+	margin-right: 20px;
+}
+.order-item__link{
+color: #000000;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1.4px;
+}
+.order-item__price{
+color: #000000;
+font-size: 18px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.72px;
+	margin-left: auto;
+}
+.order-item__check{
+width: 27px;
+height: 26px;
+border: 1px solid #000000;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+			margin-left: auto;
+	opacity: 0.2;
+	span{
+color: #000000;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+	}
+}
+.active__{
+	margin-left: 20px;
+	border: 2px solid #000000;
+	opacity: 1;
+	
+}
+.btn-order-page{
+	background-color: #fff;
+	border: 2px solid #000000;
+}
+.order-price{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	.order-item__check{
+		margin-right: 34px;
+	}
+}
+.btn-close{
+	margin-left: auto;
+	opacity: 0.5;
+}
+.overlay__orders{
+	display: flex;
+	flex-direction: column;
+}

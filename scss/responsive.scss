@@ -1,0 +1,510 @@
+@media only screen and (max-width: 1200px) {
+	.container-order {
+		padding: 0px 15px;
+		width: 95%;
+	}
+
+	.header .container {
+		padding: 0 15px;
+	}
+
+	.about-us-title {
+		padding-top: 100px;
+		margin-bottom: 60px;
+	}
+
+	.subheader__schedule {
+		width: 100% !important;
+		padding: 0px 15px;
+	}
+
+	.intro-slider-container {
+		height: 512px;
+	}
+
+	.intro-slide {
+		span {
+			font-size: 47px;
+		}
+	}
+
+	.about-us__right-col {
+		flex-basis: 34%;
+	}
+
+	.about-us__left-col {
+		margin-left: 15px;
+	}
+
+	.about-us__left-col p {
+
+		font-size: 49px;
+	}
+
+	.about-us__text {
+		max-width: 483px;
+		width: auto;
+	}
+
+	.about-us-chefs::after {
+		content: '';
+		background-image: url(../img/spices.png);
+		width: 263px;
+		position: absolute;
+		height: 192px;
+		display: block;
+		top: 80%;
+		left: -45%;
+	}
+
+	.menu__main {
+		padding: 0px 15px;
+	}
+
+	.menu__main__item {
+		width: 200px;
+	}
+
+	.menu__main__title {
+		margin-bottom: 0px;
+		height: 100px;
+	}
+
+	.menu__main__link {
+		bottom: 175px;
+	}
+
+	.menu__main__price {
+		padding: 27px 0px 28px 28px;
+	}
+
+	.menu-price {
+		margin: 42px 15px;
+	}
+
+	.menu-btn__order {
+		margin-left: 15px;
+	}
+
+	.architecture-overlay .container {
+		width: 97%;
+	}
+
+	.team-people {
+		padding: 0px 15px;
+	}
+
+	.team-people__item {
+		width: 220px;
+	}
+
+	.footer-container {
+		padding-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.header__order-button {
+		display: none !important;
+	}
+
+	.menu-navigation {
+		padding: 0px;
+	}
+
+	.about-us-overlay {
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 90%;
+	}
+
+	.about-us__left-col {
+		flex-basis: 80%;
+		padding: 0px;
+	}
+
+	.about-us__right-col {
+		flex-basis: 99%;
+	}
+
+	.about-us-chefs {
+		margin-left: auto;
+		margin-top: 25px;
+	}
+
+	.about-us-chefs::after {
+		top: 87%;
+		right: 0;
+		left: 33%;
+	}
+
+	.subheader__schedule li {
+		font-size: 10px !important;
+	}
+
+	.menu__main {
+		flex-wrap: wrap;
+		width: 80%;
+		margin: 0px auto 0px auto;
+	}
+
+	.menu__main__item {
+		width: 262px;
+		margin-top: 40px;
+	}
+
+	.menu-price {
+		margin: 42px auto 42px auto;
+	}
+
+	.menu-btn__order {
+		margin: auto;
+	}
+
+	.team-people__item {
+		margin-right: 15px;
+	}
+
+	.team-people {
+		justify-content: center;
+		padding: 0px;
+	}
+
+	.footer-map {
+		width: 440px;
+	}
+
+	.footer-row {
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width: 740px) {
+
+	.header__order-button {
+		display: none !important;
+	}
+
+	.subheader {
+		display: none;
+	}
+
+	.header__nav {
+		display: none;
+	}
+
+	.intro-slider-container {
+		height: 501px;
+
+		.swiper-button-prev,
+		.swiper-button-next {
+			display: none;
+		}
+	}
+
+	.intro-slider__btn {
+		top: 96px;
+	}
+
+	.intro-slide span {
+		font-size: 30px;
+	}
+
+	.about-us-title span {
+		font-size: 30px;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+	}
+
+	.about-us__left-col p {
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 1.5px;
+		width: 172px;
+		margin: auto;
+	}
+
+	.about-us-title {
+		padding-top: 65px;
+		margin-bottom: 31px;
+	}
+
+	.about-us__text {
+		width: 100%;
+		text-align: center;
+		margin-top: 57px;
+	}
+
+	.about-us-overlay {
+		width: 100%;
+
+	}
+
+	.about-us__text span {
+		font-size: 16px;
+	}
+
+	.about-us-chefs img {
+		display: none;
+	}
+
+	.about-us-chefs::after {
+		position: relative;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-size: contain;
+		/* Style for "spices" */
+		width: 158px;
+		height: 116px;
+
+	}
+
+	.about-us .container {
+		padding-bottom: 0px;
+	}
+
+	.about-us-chefs {
+		margin: 114px auto 0px auto;
+	}
+
+	.menu-title::after {
+		display: none;
+	}
+
+	.menu-overlay .container {
+		padding-top: 50px;
+	}
+
+	.menu-title {
+		margin-bottom: 44px;
+	}
+
+	.menu-title span {
+		font-size: 30px;
+		font-weight: bold;
+		letter-spacing: 3.3px;
+	}
+
+	.menu-navigation {
+		display: none;
+	}
+
+	.mob-navigation {
+		display: flex;
+		justify-content: center;
+
+		select {
+			width: 212px;
+			height: 32px;
+			outline: none;
+			border: 2px solid #000000;
+			background-color: transparent;
+			background-image: url(../img/vector_select.png);
+			background-repeat: no-repeat;
+			background-position: 94% 50%;
+			color: #000000;
+			font-size: 10px;
+			font-weight: bold;
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+			padding: 0px 16px 0px 5px;
+
+			option {
+				color: #000000;
+				font-size: 10px;
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 0.5px;
+			}
+		}
+
+		select {
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+		}
+	}
+
+	.desktop__main {
+		display: none;
+	}
+
+	.menu__main__item {
+		width: 262px;
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.menu-price {
+		width: 263px;
+		height: 113px;
+	}
+
+	.outer-container .swiper-button-prev,
+	.outer-container .swiper-button-next {
+		top: 90% !important;
+	}
+
+	.outer-slide:nth-of-type(even) {
+		margin-top: 0;
+	}
+
+	.team-overlay .team-title {
+		margin-bottom: 0px;
+	}
+
+	.team-overlay .team-title span {
+		font-size: 30px;
+		letter-spacing: 1.5px;
+	}
+
+	.team-people__item {
+		width: 263px;
+		margin-right: 0px;
+		margin-top: 35px;
+	}
+
+	.team-overlay .container {
+		padding: 100px 0px;
+	}
+
+	.footer-row {
+		flex-wrap: wrap;
+	}
+
+	.footer-map {
+		height: 374px;
+	}
+
+	.footer-form {
+		width: 90%;
+		margin: auto;
+	}
+
+	.mob-slider {
+		display: block;
+	}
+
+	.header__nav-menu-button {
+		display: flex !important;
+		margin-left: auto;
+		flex-direction: column;
+		justify-content: space-between;
+		/* Style for "menu_icon" */
+		width: 30px;
+		height: 23px;
+
+		span {
+			width: 100%;
+			background-color: #ffffff;
+			height: 2px;
+
+		}
+	}
+
+	.header .container {
+		padding: 0 15px;
+	}
+
+	.mob__nav .header__nav-link {
+		margin-right: 46px;
+		color: #000000;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1.68px;
+		text-decoration: none;
+		width: 100%;
+		display: block;
+		padding: 17px 0px;
+		text-align: center;
+		border: 1px solid #cd853f;
+	}
+
+	.mob__nav .header__nav-link:hover {
+		color: #cd853f;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.order-item__main {
+		padding: 0px;
+
+	}
+
+	.order-item__child {
+		width: 96%;
+	}
+
+	.container-order .order-title span {
+		width: 136px;
+		color: #000000;
+		;
+		font-size: 16px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 1.6px;
+	}
+
+	.container-order .order-corps a {
+		font-size: 10px;
+	}
+
+	.order-item__link {
+		font-size: 14px;
+		font-weight: bolder;
+		letter-spacing: 0.54px;
+	}
+
+	.container-order .order-corps li {
+		margin-right: 29px;
+	}
+
+	.container-order .order-corps li::after {
+		content: '';
+		background-image: url(../img/vectore-corps.png);
+		width: 4px;
+		height: 7px;
+		position: absolute;
+		left: -17px;
+		top: 5px;
+	}
+
+	.order-item__main {
+		margin-top: 47px;
+	}
+
+	.outer-container .swiper-button-prev,
+	.outer-container .swiper-button-next {
+		top: 88% !important;
+		display: inline-block;
+		position: relative;
+		margin-top: 5px;
+	}
+
+	.outer-container .swiper-button-next {
+		background-image: url(../img/outer-next.png);
+		width: 103px;
+		height: 64px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		/* left: -37px; */
+		left: 59%;
+		right: 0;
+	}
+
+	.outer-container .swiper-button-prev {
+		/* right: 125px; */
+		left: auto;
+		background-image: url(../img/outer-prev.png);
+		width: 103px;
+		height: 64px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		left: -15%;
+		right: 0;
+	}
+}
